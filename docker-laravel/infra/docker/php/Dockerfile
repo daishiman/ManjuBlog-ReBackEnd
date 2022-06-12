@@ -1,4 +1,4 @@
-FROM 8.1-fpm-buster AS base
+FROM php:8.1-fpm-bullseye AS base
 
 WORKDIR /data
 
