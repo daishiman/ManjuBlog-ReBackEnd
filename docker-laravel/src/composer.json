@@ -1,11 +1,11 @@
 {
-    "name": "laravel/laravel",
+    "name": "ManjuBlog-ReBackEnd/ManjuBlog",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "まんじゅのブログのバックエンド",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
-        "php": "^8.0.2",
+        "php": "^8.1",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.11",
         "laravel/sanctum": "^2.14.1",
