@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="686a972d-2017-4497-aaeb-55ce269294d5" name="変更" comment="chore: 初期 laravel-docker 環境クローン&#10;&#10;[参考：最強のLaravel開発環境をDockerを使って構築する](https://qiita.com/ucan-lab/items/5fc1281cd8076c8ac9f4#%E4%BD%BF%E3%81%84%E6%96%B9)">
+      <change beforePath="$PROJECT_DIR$/.idea/ReBackEnd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ReBackEnd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +15,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,6 +57,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2AGqxMWQuYJgucFtWXo2lJlSeyO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -69,11 +76,14 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/manjumotodaishi/dev/DevBlog/ReBackEnd",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "web-ide.project.structure",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.sourceCode.PHP",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -82,6 +92,76 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/docker-laravel/.github" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker-laravel/.github/workflows" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-laravel.db: Compose デプロイ">
+    <configuration name="docker-laravel: Compose デプロイ" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-laravel/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-laravel.app: Compose デプロイ" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="app" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-laravel/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-laravel.db: Compose デプロイ" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-laravel/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-laravel.web: Compose デプロイ" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="web" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-laravel/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="mysql/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="docker-laravel/infra/docker/mysql/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-laravel.db: Compose デプロイ" />
+        <item itemvalue="Docker.mysql/Dockerfile" />
+        <item itemvalue="Docker.docker-laravel.app: Compose デプロイ" />
+        <item itemvalue="Docker.docker-laravel: Compose デプロイ" />
+        <item itemvalue="Docker.docker-laravel.web: Compose デプロイ" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -94,7 +174,15 @@
       <workItem from="1654646516431" duration="1780000" />
       <workItem from="1654653833494" duration="494000" />
       <workItem from="1654655395621" duration="501000" />
-      <workItem from="1655004767718" duration="15799000" />
+      <workItem from="1655004767718" duration="25282000" />
+      <workItem from="1655108255411" duration="171000" />
+      <workItem from="1655108647874" duration="599000" />
+      <workItem from="1655110721510" duration="9402000" />
+      <workItem from="1655127872291" duration="353000" />
+      <workItem from="1655128941642" duration="2514000" />
+      <workItem from="1655152134830" duration="1036000" />
+      <workItem from="1655154295456" duration="916000" />
+      <workItem from="1655156138786" duration="2357000" />
     </task>
     <servers />
   </component>
