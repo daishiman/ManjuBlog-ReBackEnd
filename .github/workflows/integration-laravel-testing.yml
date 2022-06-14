@@ -3,7 +3,7 @@ name: Laravel Testing
 on:
   pull_request:
     paths:
-      - 'src/*'
+      - 'docker-laravel/src/*'
 
 jobs:
   laravel-testing:
