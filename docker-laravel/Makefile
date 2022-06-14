@@ -158,3 +158,8 @@ insights:
 	docker compose exec app php artisan insights -v
 insights-fix:
 	docker compose exec app php artisan insights --fix
+
+quality:
+	@make php-cs-fix
+	@make larastan
+	@make insights-fix
