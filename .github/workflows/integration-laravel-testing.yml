@@ -78,7 +78,7 @@ jobs:
         run: php artisan --version
 
       - name: Laravel Migrate Testing
-        run: php artisan migrate
+        run: docker compose exec app php artisan migrate
 
       - name: Laravel Rollback Testing
         run: php artisan migrate:refresh
