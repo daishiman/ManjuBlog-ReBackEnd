@@ -31,9 +31,5 @@ V
 &docker-laravel/src/config/database.php,6/d/6de7b498f404c42ed0aa848e46ae5b80a121a44b
 Q
 !docker-laravel/src/config/app.php,1/6/16925b3f69690e37bb7ab2b25f298c0a06cf1e1f
-G
-docker-laravel/src/.env,b/1/b1d6a12e644610e3783f77acdf88822335758641
-O
-docker-laravel/src/.env.example,1/8/18de23704c40b561e438695719bb122745b3aaa3
 \
 ,docker-laravel/infra/docker/mysql/Dockerfile,5/c/5c0abb8f6d86aa02948101724b19c98f6c3baa05
