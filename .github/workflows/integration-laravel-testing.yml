@@ -16,7 +16,7 @@ jobs:
           - 3306:3306
         env:
           MYSQL_ROOT_PASSWORD: secret
-          MYSQL_DATABASE: laravel
+          MYSQL_DATABASE: laravel_local
         options: >-
           --health-cmd "mysqladmin ping -h localhost"
           --health-interval 20s
@@ -78,7 +78,7 @@ jobs:
         run: php artisan --version
 
       - name: Laravel Migrate Testing
-        run: docker compose exec app php artisan migrate
+        run: php artisan migrate
 
       - name: Laravel Rollback Testing
         run: php artisan migrate:refresh
