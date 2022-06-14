@@ -3,7 +3,6 @@
 namespace App\Providers;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
-use Illuminate\Support\Facades\Gate;
 
 final class AuthServiceProvider extends ServiceProvider
 {
@@ -25,6 +24,6 @@ final class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        //
+    
     }
 }

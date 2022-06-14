@@ -13,7 +13,7 @@ final class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        
     }
 
     /**
@@ -23,6 +23,6 @@ final class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        
     }
 }
