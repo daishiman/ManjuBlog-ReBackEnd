@@ -25,7 +25,5 @@ O
 docker-laravel/src/.styleci.yml,6/d/6dc2a47577b218d9c321a02a46ccd281eed33759
 J
 docker-laravel/src/artisan,e/9/e93c4c659ccc3a1d76d5f576064e7235f5647403
-V
-&docker-laravel/src/config/database.php,6/d/6de7b498f404c42ed0aa848e46ae5b80a121a44b
 Q
 !docker-laravel/src/config/app.php,1/6/16925b3f69690e37bb7ab2b25f298c0a06cf1e1f
