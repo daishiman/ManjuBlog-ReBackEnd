@@ -15,9 +15,11 @@ jobs:
           php-version: 8.1
 
       - name: Install Dependencies
+        working-directory: ./docker-laravel/src
         run: |
           composer install -q --no-ansi --no-interaction --no-scripts --prefer-dist
-          composer install -q --no-ansi --no-interaction --no-scripts --prefer-dist --working-dir=./docker-laravel/src/tools/larastan
+          composer install -q --no-ansi --no-interaction --no-scripts --prefer-dist --working-dir=./tools/larastan
 
       - name: PHPStan Analyse
-        run: ./docker-laravel/src/tools/larastan/vendor/bin/phpstan analyse
+        working-directory: ./docker-laravel/src
+        run: ./tools/larastan/vendor/bin/phpstan analyse
