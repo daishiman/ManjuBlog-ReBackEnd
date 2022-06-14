@@ -157,4 +157,4 @@ larastan:
 insights:
 	docker compose exec app php artisan insights -v
 insights-fix:
-	docker compose exec app php artisan insights -fix
+	docker compose exec app php artisan insights --fix
