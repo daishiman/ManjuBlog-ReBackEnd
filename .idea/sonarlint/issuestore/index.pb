@@ -1,6 +1,4 @@
 
-Q
-!docker-laravel/docker-compose.yml,6/b/6bd6d12b860ad49dbf839d55accc740e9a77230c
 ^
 .docker-laravel/infra/docker/nginx/default.conf,9/4/940e5cf436c4142078173da4706d9470fc1d125a
 X
@@ -13,8 +11,6 @@ U
 %docker-laravel/src/config/hashing.php,4/3/43449a540928d29678f70834cc209c87b9654705
 H
 docker-laravel/README.md,b/4/b4db95f9831c4baa22816549cd5e839509c07449
-F
-docker-laravel/LICENSE,b/e/be316c38f3f89217cd647ea607381c8f384acfb8
 L
 docker-laravel/.editorconfig,1/8/183ecab228ee12b6270d1e2c252304726f51aa94
 L

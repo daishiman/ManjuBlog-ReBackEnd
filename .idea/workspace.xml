@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="686a972d-2017-4497-aaeb-55ce269294d5" name="変更" comment="chore: 初期 laravel-docker 環境クローン&#10;&#10;[参考：最強のLaravel開発環境をDockerを使って構築する](https://qiita.com/ucan-lab/items/5fc1281cd8076c8ac9f4#%E4%BD%BF%E3%81%84%E6%96%B9)">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/php-cs-fixer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/php-cs-fixer.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7bb7ab640c19eb77913ce475bf20c6838883a7ad" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
+    <list default="true" id="686a972d-2017-4497-aaeb-55ce269294d5" name="変更" comment="fix: insights.yml の修正&#10;&#10;実行ディレクトリの修正">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/insights.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/insights.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6bd6d12b860ad49dbf839d55accc740e9a77230c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be316c38f3f89217cd647ea607381c8f384acfb8" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -25,6 +25,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -71,24 +72,25 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/manjumotodaishi/dev/DevBlog/ReBackEnd",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.sourceCode.PHP",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/manjumotodaishi/dev/DevBlog/ReBackEnd&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.PHP&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -185,8 +187,39 @@
       <workItem from="1655128941642" duration="2514000" />
       <workItem from="1655152134830" duration="1036000" />
       <workItem from="1655154295456" duration="916000" />
-      <workItem from="1655156138786" duration="2990000" />
+      <workItem from="1655156138786" duration="10090000" />
+      <workItem from="1655189402601" duration="585000" />
+      <workItem from="1655196207719" duration="2494000" />
     </task>
+    <task id="LOCAL-00001" summary="fix: larastan.yml の修正&#10;&#10;実行ディレクトリの修正">
+      <created>1655180549297</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655180549297</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix: larastan.yml の修正&#10;&#10;実行ディレクトリの修正">
+      <created>1655180774217</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655180774217</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix: insights.yml の修正&#10;&#10;実行ディレクトリの修正">
+      <created>1655206678875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655206678875</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix: insights.yml の修正&#10;&#10;実行ディレクトリの修正">
+      <created>1655206903887</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655206903887</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,5 +235,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix: larastan.yml の修正&#10;&#10;実行ディレクトリの修正" />
+    <MESSAGE value="fix: insights.yml の修正&#10;&#10;実行ディレクトリの修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: insights.yml の修正&#10;&#10;実行ディレクトリの修正" />
   </component>
 </project>
