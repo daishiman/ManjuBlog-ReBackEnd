@@ -1,8 +1,6 @@
 
 ^
 .docker-laravel/infra/docker/nginx/default.conf,9/4/940e5cf436c4142078173da4706d9470fc1d125a
-X
-(docker-laravel/infra/docker/mysql/my.cnf,9/3/937471567bf6e56d8d1df7842965ae0509233559
 \
 ,docker-laravel/infra/docker/nginx/Dockerfile,f/3/f3175a24b5a14dd004b3365fabf8bdb216fe38f4
 Y
@@ -31,5 +29,3 @@ V
 &docker-laravel/src/config/database.php,6/d/6de7b498f404c42ed0aa848e46ae5b80a121a44b
 Q
 !docker-laravel/src/config/app.php,1/6/16925b3f69690e37bb7ab2b25f298c0a06cf1e1f
-\
-,docker-laravel/infra/docker/mysql/Dockerfile,5/c/5c0abb8f6d86aa02948101724b19c98f6c3baa05
