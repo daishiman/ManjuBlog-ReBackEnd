@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="686a972d-2017-4497-aaeb-55ce269294d5" name="変更" comment="chore: 初期 laravel-docker 環境クローン&#10;&#10;[参考：最強のLaravel開発環境をDockerを使って構築する](https://qiita.com/ucan-lab/items/5fc1281cd8076c8ac9f4#%E4%BD%BF%E3%81%84%E6%96%B9)">
-      <change beforePath="$PROJECT_DIR$/.idea/ReBackEnd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ReBackEnd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/php-cs-fixer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/php-cs-fixer.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7bb7ab640c19eb77913ce475bf20c6838883a7ad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -93,6 +95,7 @@
       <recent name="$PROJECT_DIR$/docker-laravel/.github" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/docker-laravel/.github/workflows" />
     </key>
   </component>
@@ -182,7 +185,7 @@
       <workItem from="1655128941642" duration="2514000" />
       <workItem from="1655152134830" duration="1036000" />
       <workItem from="1655154295456" duration="916000" />
-      <workItem from="1655156138786" duration="2357000" />
+      <workItem from="1655156138786" duration="2990000" />
     </task>
     <servers />
   </component>

@@ -31,8 +31,6 @@ O
 docker-laravel/src/.styleci.yml,6/d/6dc2a47577b218d9c321a02a46ccd281eed33759
 J
 docker-laravel/src/artisan,e/9/e93c4c659ccc3a1d76d5f576064e7235f5647403
-I
-docker-laravel/.gitignore,7/b/7bb7ab640c19eb77913ce475bf20c6838883a7ad
 V
 &docker-laravel/src/config/database.php,6/d/6de7b498f404c42ed0aa848e46ae5b80a121a44b
 Q
@@ -43,5 +41,3 @@ O
 docker-laravel/src/.env.example,1/8/18de23704c40b561e438695719bb122745b3aaa3
 \
 ,docker-laravel/infra/docker/mysql/Dockerfile,5/c/5c0abb8f6d86aa02948101724b19c98f6c3baa05
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
