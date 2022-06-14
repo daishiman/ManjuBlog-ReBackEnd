@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="686a972d-2017-4497-aaeb-55ce269294d5" name="変更" comment="fix: docker テストと laravel テストの自動化&#10;&#10;integration-laravel-testing.yml の修正">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/integration-laravel-testing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/integration-laravel-testing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +191,7 @@
       <workItem from="1655156138786" duration="10090000" />
       <workItem from="1655189402601" duration="585000" />
       <workItem from="1655196207719" duration="13140000" />
-      <workItem from="1655248453655" duration="235000" />
+      <workItem from="1655248453655" duration="740000" />
     </task>
     <task id="LOCAL-00001" summary="fix: larastan.yml の修正&#10;&#10;実行ディレクトリの修正">
       <created>1655180549297</created>
@@ -333,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655240377026</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fix: docker テストと laravel テストの自動化&#10;&#10;integration-laravel-testing.yml の修正">
+      <created>1655248706528</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1655248706528</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
