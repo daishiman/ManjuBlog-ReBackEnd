@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="686a972d-2017-4497-aaeb-55ce269294d5" name="変更" comment="fix: docker テストと laravel テストの自動化&#10;&#10;integration-laravel-testing.yml の修正">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/integration-laravel-testing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/integration-laravel-testing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/環境構築" />
+                    <option name="lastUsedInstant" value="1654646618" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1654646617" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="個人ブログ開発ルール" />
+      </list>
+    </option>
+  </component>
+  <component name="Make.Settings">
+    <option name="autoScrollToSourceInToolWindow" value="true" />
+    <option name="showHiddenInToolWindow" value="true" />
+    <option name="sortAlphabeticallyInToolWindow" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2AGqxMWQuYJgucFtWXo2lJlSeyO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;ToolWindowmake.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/manjumotodaishi/dev/DevBlog/ReBackEnd&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.PHP&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/docker-laravel/.github" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/docker-laravel/.github/workflows" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-laravel.db: Compose デプロイ">
+    <configuration name="docker-laravel: Compose デプロイ" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-laravel/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-laravel.app: Compose デプロイ" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="app" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-laravel/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-laravel.db: Compose デプロイ" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-laravel/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-laravel.web: Compose デプロイ" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="web" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-laravel/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="mysql/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="docker-laravel/infra/docker/mysql/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-laravel.db: Compose デプロイ" />
+        <item itemvalue="Docker.mysql/Dockerfile" />
+        <item itemvalue="Docker.docker-laravel.app: Compose デプロイ" />
+        <item itemvalue="Docker.docker-laravel: Compose デプロイ" />
+        <item itemvalue="Docker.docker-laravel.web: Compose デプロイ" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="デフォルトタスク">
+      <changelist id="686a972d-2017-4497-aaeb-55ce269294d5" name="変更" comment="" />
+      <created>1654646514863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654646514863</updated>
+      <workItem from="1654646516431" duration="1780000" />
+      <workItem from="1654653833494" duration="494000" />
+      <workItem from="1654655395621" duration="501000" />
+      <workItem from="1655004767718" duration="25282000" />
+      <workItem from="1655108255411" duration="171000" />
+      <workItem from="1655108647874" duration="599000" />
+      <workItem from="1655110721510" duration="9402000" />
+      <workItem from="1655127872291" duration="353000" />
+      <workItem from="1655128941642" duration="2514000" />
+      <workItem from="1655152134830" duration="1036000" />
+      <workItem from="1655154295456" duration="916000" />
+      <workItem from="1655156138786" duration="10090000" />
+      <workItem from="1655189402601" duration="585000" />
+      <workItem from="1655196207719" duration="13140000" />
+      <workItem from="1655248453655" duration="1800000" />
+    </task>
+    <task id="LOCAL-00001" summary="fix: larastan.yml の修正&#10;&#10;実行ディレクトリの修正">
+      <created>1655180549297</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655180549297</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix: larastan.yml の修正&#10;&#10;実行ディレクトリの修正">
+      <created>1655180774217</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655180774217</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix: insights.yml の修正&#10;&#10;実行ディレクトリの修正">
+      <created>1655206678875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655206678875</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix: insights.yml の修正&#10;&#10;実行ディレクトリの修正">
+      <created>1655206903887</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655206903887</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix: insights.yml の修正&#10;&#10;実行ディレクトリの修正">
+      <created>1655207276482</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655207276482</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix: insights.yml の修正&#10;&#10;実行コマンドの修正">
+      <created>1655207568866</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655207568866</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix: insights.yml の修正&#10;&#10;実行コマンドの修正">
+      <created>1655208229481</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655208229481</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix: insights.yml の修正&#10;&#10;実行コマンドの修正">
+      <created>1655208483268</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655208483268</updated>
+    </task>
+    <task id="LOCAL-00009" summary="chore: docker テストと laravel テストの自動化">
+      <created>1655210118713</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655210118713</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix: docker テストと laravel テストの自動化&#10;&#10;yml の修正">
+      <created>1655210401293</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655210401293</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix: docker テストと laravel テストの自動化&#10;&#10;yml の修正">
+      <created>1655210872784</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655210872784</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix: docker テストと laravel テストの自動化&#10;&#10;integration-laravel-testing.yml の修正">
+      <created>1655212118631</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655212118631</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix: docker テストと laravel テストの自動化&#10;&#10;integration-laravel-testing.yml の修正">
+      <created>1655212284974</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1655212284974</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix: docker テストと laravel テストの自動化&#10;&#10;integration-laravel-testing.yml の修正">
+      <created>1655212875205</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1655212875205</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix: docker テストと laravel テストの自動化&#10;&#10;integration-laravel-testing.yml の修正">
+      <created>1655214135189</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1655214135189</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix: docker テストと laravel テストの自動化&#10;&#10;integration-laravel-testing.yml の修正">
+      <created>1655214324400</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1655214324400</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix: docker テストと laravel テストの自動化&#10;&#10;integration-laravel-testing.yml の修正">
+      <created>1655218706445</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1655218706445</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix: docker テストと laravel テストの自動化&#10;&#10;integration-laravel-testing.yml の修正">
+      <created>1655219088133</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1655219088133</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fix: docker テストと laravel テストの自動化&#10;&#10;integration-laravel-testing.yml の修正">
+      <created>1655239691647</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1655239691647</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix: docker テストと laravel テストの自動化&#10;&#10;integration-laravel-testing.yml の修正">
+      <created>1655240377026</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1655240377026</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fix: docker テストと laravel テストの自動化&#10;&#10;integration-laravel-testing.yml の修正">
+      <created>1655248706528</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1655248706528</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fix: docker テストと laravel テストの自動化&#10;&#10;integration-laravel-testing.yml の修正">
+      <created>1655249225234</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1655249225234</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix: larastan.yml の修正&#10;&#10;実行ディレクトリの修正" />
+    <MESSAGE value="fix: insights.yml の修正&#10;&#10;実行ディレクトリの修正" />
+    <MESSAGE value="fix: insights.yml の修正&#10;&#10;実行コマンドの修正" />
+    <MESSAGE value="chore: docker テストと laravel テストの自動化" />
+    <MESSAGE value="fix: docker テストと laravel テストの自動化&#10;&#10;yml の修正" />
+    <MESSAGE value="fix: docker テストと laravel テストの自動化&#10;&#10;integration-laravel-testing.yml の修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: docker テストと laravel テストの自動化&#10;&#10;integration-laravel-testing.yml の修正" />
+  </component>
+</project>
